@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  datadog:
+  - appVersion: 6.3.1
+    created: 2019-11-25T19:15:08.283317+08:00
+    description: Datadog Agent
+    digest: e650afe4621ae37271314d38406a1149831d55cfc09cd7e020d911e5e7be9584
+    home: https://www.datadoghq.com
+    icon: https://datadog-live.imgix.net/img/dd_logo_70x75.png
+    keywords:
+    - monitoring
+    - logging
+    maintainers:
+    - email: jan@rancher.com
+      name: janeczku
+    name: datadog
+    sources:
+    - https://app.datadoghq.com/account/settings#agent/kubernetes
+    - https://github.com/DataDog/datadog-agent
+    urls:
+    - https://dellkeji.github.io/testhelmrepo/datadog-1.0.0.tgz
+    version: 1.0.0
+generated: 2019-11-25T19:15:08.282229+08:00
